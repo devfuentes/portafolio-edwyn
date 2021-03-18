@@ -1,5 +1,10 @@
+// UTILS
+@import "utils/variables";
 // BASE
 @import "base/normalize";
 @import "base/typography";
-// UTILS
-@import "utils/variables";
+
+// COMPONENTS
+@import "components/header";
+@import "components/navbar";
+@import "components/buttons";
