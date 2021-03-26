@@ -1,5 +1,6 @@
 // UTILS
 @import "utils/variables";
+@import "utils/mixins";
 // BASE
 @import "base/normalize";
 @import "base/typography";
@@ -8,3 +9,4 @@
 @import "components/header";
 @import "components/navbar";
 @import "components/buttons";
+@import "components/skills";

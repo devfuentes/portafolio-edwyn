@@ -342,32 +342,48 @@ html {
   font-size: 62.5%;
 }
 
-header {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Exo", sans-serif;
+}
+
+.header {
   width: 100%;
   min-width: 320px;
   background-color: #fed9da;
+  padding-bottom: 104px;
 }
-header .header-info {
-  margin: 48px auto 0 auto;
+.header .header-info {
+  margin: 48px auto 40px auto;
   width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-header .header-info .header-info__image {
+.header .header-info .header-info__image {
   width: 80px;
   height: 80px;
   margin-bottom: 40px;
 }
-header .header-info .header-info__title {
+@media only screen and (min-width: 600px) {
+  .header .header-info .header-info__image {
+    width: 200px;
+    height: 200px;
+  }
+}
+.header .header-info .header-info__title {
   font-family: "Exo", sans-serif;
   color: #5928e5;
   font-size: 3.2rem;
   line-height: 3rem;
   margin: 0 0 40px 0;
 }
-header .header-info .header-info__bio {
+.header .header-info .header-info__bio {
   margin: 0;
   font-size: 1.8rem;
   font-weight: 400;
@@ -397,4 +413,21 @@ header .header-info .header-info__bio {
   background-color: #5928e5;
   padding: 12px 24px;
   font-weight: 700;
+}
+
+.skills {
+  width: 90%;
+  margin: 0 auto;
+}
+.skills .skills__container {
+  margin-bottom: 24px;
+}
+.skills .skills__container img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+}
+.skills .skills__title {
+  font-size: 2.4rem;
+  margin: 0;
 }
